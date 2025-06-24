@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f2e9f7, #d0eafc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #444;
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+.todo-card {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+header h2 {
+  font-size: 1.8em;
+  color: #7e57c2;
+}
+
+header p {
+  color: #888;
+  font-size: 0.95em;
+  margin-top: 5px;
+}
+
+.task-input {
+  margin: 20px 0;
+  display: flex;
+}
+
+.task-input input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-size: 1em;
+  background-color: #fafafa;
+}
+
+.task-input button {
+  padding: 10px 15px;
+  background-color: #b388ff;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.task-input button:hover {
+  background-color: #a574eb;
+}
+
+.task-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.task-list li span {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.task-checkbox {
+  transform: scale(1.2);
+  accent-color: #a574eb;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: #ff8a80;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+.empty-msg {
+  text-align: center;
+  color: #aaa;
+  margin-top: 20px;
+  font-size: 0.95em;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9em;
+  color: #777;
+  border-top: 1px solid #eee;
+  margin-top: 20px;
+  padding-top: 10px;
+}
