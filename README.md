@@ -3,7 +3,7 @@ Build a To-Do List Web App
 
 ## Description:
 Task Manager – To-Do List Web App
-This is a front-end **To-Do List Web Application** built using **HTML, CSS, and Vanilla JavaScript** as part of my web development internship (Task 2). The app helps users add, complete, and delete tasks with a smooth and responsive UI.
+This is a front-end **To-Do List Web Application** built using **HTML, CSS, and Vanilla JavaScript**. The app helps users add, complete, and delete tasks with a smooth and responsive UI.
 
 
 ## Features added
